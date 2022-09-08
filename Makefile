@@ -22,6 +22,10 @@ run: dev ## Run with dev dependencies
 	venv/Scripts/activate
 	python -m src.main
 
+deploy: dev ## Run with dev dependencies
+	cd app
+	nohup python3 -m src.main
+
 test: ## Test
 	cd src
 	python -m pytest
