@@ -7,9 +7,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
 # local variables
-from urlconversion import crud
-from urlconversion import schemas
-from urlconversion.database import Base, SessionLocal, engine
+from src.urlconversion import crud
+from src.urlconversion import schemas
+from src.urlconversion.database import Base, SessionLocal, engine
 
 Base.metadata.create_all(bind=engine)
 
@@ -45,4 +45,4 @@ def delete_all_url_conversions(db: Session = Depends(get_db)):
     return crud.delete_all_url_conversions(db)
     
 if __name__ == "__main__":
-    uvicorn.run("main:app", reload=True)
+    uvicorn.run("src.main:app", reload=True)

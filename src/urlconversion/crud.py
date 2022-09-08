@@ -5,8 +5,8 @@ import sqlalchemy
 from sqlalchemy import asc, desc
 from sqlalchemy.orm import Session
 
-import urlconversion.models as models
-import urlconversion.schemas as schemas
+import src.urlconversion.models as models
+import src.urlconversion.schemas as schemas
 
 
 def get_url_conversions(db: Session):
