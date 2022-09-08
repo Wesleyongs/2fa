@@ -2,15 +2,14 @@ import datetime as dt
 from typing import List
 
 import uvicorn
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
-from src.postgres.database import Base
 
-import src.postgres.crud as crud
-import src.postgres.models as models
-import src.postgres.schemas as schemas
-from src.postgres.database import SessionLocal, engine
+# local variables
+from urlconversion import crud
+from urlconversion import schemas
+from urlconversion.database import Base, SessionLocal, engine
 
 Base.metadata.create_all(bind=engine)
 

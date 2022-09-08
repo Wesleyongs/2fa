@@ -1,13 +1,13 @@
 from collections import defaultdict
 
+import pyshorteners
 import sqlalchemy
-from sqlalchemy import desc, asc
+from sqlalchemy import asc, desc
 from sqlalchemy.orm import Session
 
-import src.postgres.models as models
-import src.postgres.schemas as schemas
+import urlconversion.models as models
+import urlconversion.schemas as schemas
 
-import pyshorteners
 
 def get_url_conversions(db: Session):
     res = db.query(models.UrlConversion).all()
