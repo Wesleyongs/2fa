@@ -20,8 +20,9 @@ venv: ## Create virtual environment if venv directory not present
 
 run: dev ## Run with dev dependencies
 	venv/Scripts/activate
-	python src/main.py
+	python -m src.main
 
 test: ## Test
+	cd src
 	python -m pytest
 
