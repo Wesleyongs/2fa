@@ -1,6 +1,7 @@
 # URL shortener webapp - backend
 
-[Streamlit frontend (Deployment WIP)](https:wesleyongs.com) \
+[Streamlit frontend (Govtech url shortener)](https://wesleyongs-url-shortener-frontend-app-r9adc3.streamlitapp.com/) \
+[Streamlit frontend (Govtech soccer)](https://wesleyongs-govtech-soccer-frontend-app-42cw17.streamlitapp.com/) \
 [FastAPI backend](http://ec2-13-212-176-7.ap-southeast-1.compute.amazonaws.com/docs)
 
 ## Quick Installation
