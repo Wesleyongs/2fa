@@ -1,6 +1,6 @@
 # This repo serves as the backend microservice for: 
-# 1. Govtech url shortener webapp
-# 1. Govtech soccer event webapp
+1. Govtech url shortener webapp
+2. Govtech soccer event webapp
 
 [Streamlit frontend (Govtech url shortener)](https://wesleyongs-url-shortener-frontend-app-r9adc3.streamlitapp.com/) \
 [Streamlit frontend (Govtech soccer)](https://wesleyongs-govtech-soccer-frontend-app-42cw17.streamlitapp.com/) \
