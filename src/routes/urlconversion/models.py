@@ -2,7 +2,7 @@ from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, Date, Float
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.orm import relationship
 
-from src.urlconversion.database import Base
+from src.database.database import Base
 
 class UrlConversion(Base):
     __tablename__ = "UrlConversions"

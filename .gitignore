@@ -9,3 +9,4 @@ env.bak/
 # temp files
 .pytest
 __pycache__
+tmp
