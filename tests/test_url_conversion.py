@@ -18,5 +18,4 @@ def test_create_url_conversion():
         params={"input_url": "https://www.askpython.com/python/examples/url-shortener"},
     )
     assert response.status_code == 200
-    print(response.json())
     assert response.json() == expected_ret_val
