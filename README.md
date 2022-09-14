@@ -19,6 +19,10 @@ make run
 ```bash
 make test
 ```
+or 
+```
+pytest
+```
 
 ## General Installation
 
